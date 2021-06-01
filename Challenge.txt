@@ -1,0 +1,6 @@
+Question: How can you use a for loop to create (a list of) the numbers between 0 and 100 that are divisible by 7?
+
+Solution: var listof :MutableList<Int> = mutableListOf();
+ for(i in 0..100){if(i%7==0) listof.add(i)}
+ print(listof)
+[0, 7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98]
